@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Calc</title>
+</head>
+<body>
+
+    <script>
+        var firstNumber = prompt("Enter first number");
+        var secondNumber = prompt("Enter a second number");
+        var operation = prompt("What operation do you want? (mul, div, or mod)");
+
+        if(operation === "mul"){
+            console.log(firstNumber * secondNumber);
+        } else if(operation === "div"){
+            console.log(firstNumber / secondNumber);
+        } else if(operation === "mod"){
+            console.log(firstNumber % secondNumber)
+        } else {
+            console.log("Invalid operation");
+        }
+    </script>
+    
+</body>
+</html>
